@@ -1,0 +1,89 @@
+@charset    "UTF-8";
+
+*{
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: justify;
+}
+body{
+    margin: 0px;
+    background-color: #9b1a9bcc;
+    display: flex;
+
+}
+main{
+    background-color: rgb(143, 142, 142);
+    width: 700px;
+    text-align: center;
+    margin-left: 150px;
+}
+h1{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 6px black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+nav {
+    background-color:rgb(122 163 161);
+    padding: 30px;
+}
+li{
+    margin-top: 85px;
+    margin-bottom: 85px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav ul{
+    position: sticky;
+    top: 30px;
+}
+.container {
+    display: flex;
+    padding: 0px;
+    font-size: 1em;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    width: 200px;
+}
+nav ul li a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+p.img{
+    position: relative;
+    left: 210px;
+    margin-top: -5px;
+}
+h2{
+    font-size: 25px;
+    margin-left: 5px;
+    text-align: center;
+}
+img{
+    position: relative;
+    left: 100px;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+}
+img:hover{
+    filter: brightness(50%);
+}
+p#rodape{
+    color: black;
+    text-align: center;
+}
